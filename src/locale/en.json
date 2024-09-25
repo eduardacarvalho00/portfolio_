@@ -1,0 +1,13 @@
+{
+	"translation": {
+		"language": {
+			"title": "Language",
+			"english": "English",
+			"portuguese": "Portuguese"
+		},
+		"notFound": {
+			"text": "page not found",
+			"here": "here"
+		}
+	}
+}

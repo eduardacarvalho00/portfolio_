@@ -1,0 +1,9 @@
+pre-commit:
+  commands:
+    ts-prune:
+      run: pnpm ts-prune
+
+pre-push:
+  commands:
+    build:
+      run: pnpm run build
