@@ -1,13 +1,15 @@
 {
 	"translation": {
 		"language": {
-			"title": "Idioma",
-			"english": "Inglês",
-			"portuguese": "Português"
+			"english": "en",
+			"portuguese": "pt-br"
 		},
 		"notFound": {
-			"text": "Página não encontrada, para voltar clique",
+			"text": "Ops! Página não encontrada. Volte para a tela inicial clicando",
 			"here": "aqui"
+		},
+		"navigation": {
+			"readMore": "Saiba mais sobre mim"
 		}
 	}
 }
