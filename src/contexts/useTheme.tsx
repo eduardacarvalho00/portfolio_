@@ -53,7 +53,12 @@ export const ThemeProvider = ({ children }: ThemeContextProps) => {
 
 	return (
 		<ThemeContext.Provider
-			value={{ theme, handleToggleTheme, setThemeToDark, selectedTheme }}
+			value={{
+				theme,
+				handleToggleTheme,
+				setThemeToDark,
+				selectedTheme,
+			}}
 		>
 			{children}
 		</ThemeContext.Provider>
