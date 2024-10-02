@@ -7,6 +7,7 @@ const lightColors: Theme = {
     background: {
       primary: "#F8F9FC",
       secondary: "#FFFFFF",
+      tertiary: "#1B1B1B",
     },
     color: {
       primary: "#000000",

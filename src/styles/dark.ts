@@ -7,6 +7,7 @@ const darkColors: Theme = {
     background: {
       primary: "#1B1B1B",
       secondary: "#1E1E1E",
+      tertiary: "#1B1B1B",
     },
     color: {
       primary: "#FFFFFF",
