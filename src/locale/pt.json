@@ -11,6 +11,10 @@
 		},
 		"navigation": {
 			"readMore": "Saiba mais sobre mim"
+		},
+		"aboutMe": {
+			"text": "Sou uma desenvolvedora front end apaixonada por tecnologia, com uma trajetória que se iniciou aos 17 anos. Minha formação em Análise e Desenvolvimento de Sistemas, aliada à experiência prática, me permitiu desenvolver um conjunto sólido de habilidades técnicas e uma visão holística do desenvolvimento de software.<br/><br/> Sou proficiente em linguagens como JavaScript e TypeScript, e possuo um profundo conhecimento em frameworks JavaScript como React, Next.js e React Native. Crio interfaces de usuário intuitivas e responsivas, utilizando bibliotecas CSS como Styled Components, Chakra UI e Tailwind CSS.<br/><br/> Além do front-end, tenho experiência em infraestrutura, utilizando ferramentas como Terraform para provisionar e gerenciar recursos na nuvem. Desenvolvo pipelines CI/CD para automatizar processos e garantir a qualidade do software.",
+			"title": "Desenvolvedora com foco em Front-end"
 		}
 	}
 }

@@ -31,7 +31,7 @@ export const Header = () => {
 		<HStack
 			as="header"
 			justify={isMobile ? "center" : "space-between"}
-			h={isMobile ? "1.9rem" : "4.3rem"}
+			minH={isMobile ? "1.9rem" : "4.3rem"}
 			px={{ base: "initial", lg: "1rem", "2xl": "5rem" }}
 			borderBottom="1px solid"
 			borderColor={theme === dark ? "primary.40" : "primary.100"}

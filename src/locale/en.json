@@ -11,6 +11,10 @@
 		},
 		"navigation": {
 			"readMore": "Learn more about me"
+		},
+		"aboutMe": {
+			"text": "I'm a front-end developer with a passion for technology and a career that began at the age of 17. My background in Systems Analysis and Development, combined with practical experience, has allowed me to develop a solid set of technical skills and a holistic view of software development.<br/><br/> I'm proficient in languages such as JavaScript and TypeScript, and have in-depth knowledge of JavaScript frameworks such as React, Next.js and React Native. I create intuitive and responsive user interfaces using CSS libraries such as Styled Components, Chakra UI and Tailwind CSS.<br/><br/> In addition to the front-end, I have experience in infrastructure, using tools such as Terraform to provision and manage resources in the cloud. I develop CI/CD pipelines to automate processes and guarantee software quality.",
+			"title": "Front-end developer"
 		}
 	}
 }

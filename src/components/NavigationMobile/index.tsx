@@ -5,10 +5,13 @@ export const NavigationMobile = () => {
 	return (
 		<Flex
 			bg="background.secondary"
-			mt="0.5rem"
+			w="100%"
 			h="3.5rem"
+			align="center"
 			justify="center"
 			gap="2.56rem"
+			bottom={0}
+			position="fixed"
 		>
 			<Link href="config" />
 			<Link href="/" />
