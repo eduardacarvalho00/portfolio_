@@ -20,7 +20,7 @@ type ThemeContextData = {
 
 const ThemeContext = createContext({} as ThemeContextData);
 
-export const THEME_KEY = "@portfolio_theme";
+const THEME_KEY = "@portfolio_theme";
 
 export const ThemeProvider = ({ children }: ThemeContextProps) => {
 	const themeFromStorage = localStorage.getItem(THEME_KEY);

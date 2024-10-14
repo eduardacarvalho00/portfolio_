@@ -16,7 +16,7 @@ type TranslationContextData = {
 
 const TranslationContext = createContext({} as TranslationContextData);
 
-export const TRANSLATION_STORAGE_KEY = "@portfolio_translation";
+const TRANSLATION_STORAGE_KEY = "@portfolio_translation";
 
 export const TranslationProvider = ({ children }: TranslationContextProps) => {
 	const currentLanguageByLocalStorage = localStorage.getItem(

@@ -27,6 +27,7 @@ import {
 import { IconType } from "react-icons";
 import { CardProps } from "@interfaces/stack";
 import { Tooltip } from "@components/Tooltip";
+import { useTranslation } from "@contexts/useTranslation";
 
 interface ContainerProps extends StackProps {
 	children: ReactNode;
@@ -76,6 +77,9 @@ interface CardDesktopProps {
 export const CardDesktop = ({ data }: CardDesktopProps) => {
 	const [isFlipped, setIsFlipped] = useState(false);
 	const { theme } = useTheme();
+	const {
+		translationNext: { t },
+	} = useTranslation();
 
 	const iconStack: () => IconType = () => {
 		switch (data.name) {
@@ -114,7 +118,7 @@ export const CardDesktop = ({ data }: CardDesktopProps) => {
 				color={theme === dark ? "primary.70" : "primary.30"}
 				fontSize={15}
 			>
-				<Text>Saiba mais</Text>
+				<Text>{t("stack.learnMore")}</Text>
 				<Icon as={MdArrowForwardIos} />
 			</HStack>
 		</Container>
