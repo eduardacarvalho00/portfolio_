@@ -46,6 +46,14 @@ export const defaultStyles = {
         color: "color.primary",
         fontFamily: "Inter",
       },
+      "html::-webkit-scrollbar": {
+        bg: "background.secondary",
+        w: "1.5",
+      },
+      "html::-webkit-scrollbar-thumb": {
+        background: "primary.50",
+        borderRadius: "8px",
+      },
     },
   },
 };

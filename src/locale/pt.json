@@ -15,6 +15,95 @@
 		"aboutMe": {
 			"text": "Sou uma desenvolvedora front end apaixonada por tecnologia, com uma trajetória que se iniciou aos 17 anos. Minha formação em Análise e Desenvolvimento de Sistemas, aliada à experiência prática, me permitiu desenvolver um conjunto sólido de habilidades técnicas e uma visão holística do desenvolvimento de software.<br/><br/> Sou proficiente em linguagens como JavaScript e TypeScript, e possuo um profundo conhecimento em frameworks JavaScript como React, Next.js e React Native. Crio interfaces de usuário intuitivas e responsivas, utilizando bibliotecas CSS como Styled Components, Chakra UI e Tailwind CSS.<br/><br/> Além do front-end, tenho experiência em infraestrutura, utilizando ferramentas como Terraform para provisionar e gerenciar recursos na nuvem. Desenvolvo pipelines CI/CD para automatizar processos e garantir a qualidade do software.",
 			"title": "Desenvolvedora com foco em Front-end"
+		},
+		"stack": {
+			"title": "Em resumo, tenho conhecimento nas tecnologias e experiências em:",
+			"cardStack": [
+				{
+					"id": 1,
+					"name": "React.js",
+					"description": "Biblioteca JavaScript front-end de código aberto que permite a criação de interfaces web interativas e muito eficientes.",
+					"url": "https://pt-br.legacy.reactjs.org/",
+					"urlName": "https://reactjs.org"
+				},
+				{
+					"id": 2,
+					"name": "Next.js",
+					"description": "Framework de desenvolvimento web em JavaScript, baseado no React, que permite a criação de aplicações web de alto desempenho e eficientes.",
+					"url": "https://nextjs.org/",
+					"urlName": "https://nextjs.org"
+				},
+				{
+					"id": 3,
+					"name": "React Native + Expo",
+					"description": "O React Native traz as melhores partes do desenvolvimento com o React para o desenvolvimento nativo. É a melhor biblioteca JavaScript da categoria para criar interfaces de usuário.",
+					"url": "https://reactnative.dev",
+					"urlName": "https://reactnative.dev"
+				},
+				{
+					"id": 4,
+					"name": "Vite",
+					"description": "Vite é uma ferramenta de desenvolvimento de front-end construída com base no ecossistema do JavaScript. Ela foi criada para melhorar a eficiência do desenvolvimento front-end, tornando-o mais rápido e mais fácil para os desenvolvedores.",
+					"url": "https://dev.to/gabrielgcj/o-que-e-vite-e-quais-suas-vantagens-para-projetos-fron-end-3p5a#:~:text=Vite%20%C3%A9%20uma%20ferramenta%20de%20desenvolvimento%20de%20front-end,e%20mais%20leve%20para%20desenvolvimento%20de%20front-end%20moderno%22.",
+					"urlName": "https://dev.to"
+				},
+				{
+					"id": 5,
+					"name": "Node.js",
+					"description": "Node.js é uma ambiente de execução de JavaScript disponível para várias plataformas, de código aberto e gratuita, que permite os programadores criar servidores, aplicações da Web, ferramentas de linha de comando e programas de automação de tarefas.",
+					"url": "https://nodejs.org/en",
+					"urlName": "https://nodejs.org"
+				},
+				{
+					"id": 6,
+					"name": "Styled Components",
+					"description": "Styled Components é uma biblioteca popular do ecossistema React que permite escrever estilos CSS de forma mais intuitiva e eficiente. Com Styled Components, os estilos são definidos diretamente no componente React, combinando o CSS e a lógica do componente em um só lugar",
+					"url": "https://dev.to/gabrielgcj/o-que-e-styled-components-e-quais-suas-vantagens-aos-seus-concorrentes-2h1o#:~:text=Styled%20Components%20%C3%A9%20uma%20biblioteca%20popular%20do%20ecossistema,a%20l%C3%B3gica%20do%20componente%20em%20um%20s%C3%B3%20lugar.",
+					"urlName": "https://dev.to/styled-componentes"
+				},
+				{
+					"id": 7,
+					"name": "TailwindCSS",
+					"description": "O Tailwind CSS é um framework CSS de código aberto que se destaca por sua abordagem única de design utilitário. Em vez de fornecer estilos pré-estilizados para elementos específicos, ele fornece uma série de classes utilitárias que podem ser diretamente aplicadas aos elementos HTML para estilizá-los. Essas classes representam propriedades CSS individuais, como margens, preenchimentos, cores, tamanhos de fonte, alinhamentos e muito mais.",
+					"url": "https://www.brasilcode.com.br/tailwind-css-o-que-e-como-usar/",
+					"urlName": "https://www.brasilcode.com.br"
+				},
+				{
+					"id": 8,
+					"name": "Cypress",
+					"description": "Cypress é uma ferramenta projetada para simplificar o processo de criação, execução e depuração de testes. Além disso, ele permite que os desenvolvedores escrevam em JavaScript, com uma API que facilita essa etapa do desenvolvimento de software.",
+					"url": "https://softdesign.com.br/blog/cypress_passo_a_passo_para_comecar_a_usar/#:~:text=O%20que%20%C3%A9%20o%20Cypress?%20O%20Cypress%20%C3%A9%20uma",
+					"urlName": "https://softdesign.com.br"
+				},
+				{
+					"id": 9,
+					"name": "Playwright",
+					"description": "Playwright é uma biblioteca Node.js para automatizar o Chromium, o Firefox e o WebKit com uma única API. O Playwright foi desenvolvido para permitir a automação da Web entre navegadores que seja perene, capaz, confiável e rápida.",
+					"url": "https://learn.microsoft.com/microsoft-edge/playwright/",
+					"urlName": "https://learn.microsoft.com/"
+				},
+				{
+					"id": 10,
+					"name": "PostgreSql",
+					"description": "Sistema de gerenciamento de banco de dados do tipo objeto-relacional (ORDBMS) com ênfase em extensibilidade e em padrões de conformidade. Como um servidor de banco de dados, sua principal função é armazenar dados de forma segura, apoiando as melhores práticas, permitindo a recuperação dos dados a pedido de outras aplicações de software.",
+					"url": "https://www.devmedia.com.br/postgresql-tutorial/33025#:~:text=O%20PostgreSQL,%20normalmente%20chamado%20de",
+					"urlName": "https://www.devmedia.com.br"
+				},
+				{
+					"id": 11,
+					"name": "Terraform",
+					"description": "O Terraform é uma ferramenta de software de infraestrutura como código aberto usada para provisionar infraestrutura em plataformas de nuvem como AWS, Azure, DigitalOcean, etc.",
+					"url": "https://dev.to/jhonywalkeer/terraform-entendo-o-que-e-isso-ijc#:~:text=O%20Terraform%20%C3%A9%20uma%20ferramenta%20de%20software",
+					"urlName": "https://dev.to/jhonywalkeer/terraform"
+				},
+				{
+					"id": 12,
+					"name": "Scrum",
+					"description": "Scrum é uma estrutura usada por equipes para gerenciar o trabalho e resolver problemas de forma colaborativa em ciclos curtos. O Scrum implementa os princípios do Agile como um conjunto concreto de artefatos, práticas e funções.",
+					"url": "https://learn.microsoft.com/devops/plan/what-is-scrum",
+					"urlName": "https://learn.microsoft.com"
+				}
+			]
 		}
 	}
 }

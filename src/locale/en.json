@@ -15,6 +15,96 @@
 		"aboutMe": {
 			"text": "I'm a front-end developer with a passion for technology and a career that began at the age of 17. My background in Systems Analysis and Development, combined with practical experience, has allowed me to develop a solid set of technical skills and a holistic view of software development.<br/><br/> I'm proficient in languages such as JavaScript and TypeScript, and have in-depth knowledge of JavaScript frameworks such as React, Next.js and React Native. I create intuitive and responsive user interfaces using CSS libraries such as Styled Components, Chakra UI and Tailwind CSS.<br/><br/> In addition to the front-end, I have experience in infrastructure, using tools such as Terraform to provision and manage resources in the cloud. I develop CI/CD pipelines to automate processes and guarantee software quality.",
 			"title": "Front-end developer"
+		},
+		"stack": {
+			"title": "In short, I have expertise in technologies and experience in:",
+			"cardStack": [
+				{
+					"id": 1,
+					"name": "React.js",
+					"description": "Open source front-end JavaScript library that allows the creation of interactive and very efficient web interfaces.",
+					"url": "https://pt-br.legacy.reactjs.org/",
+					"urlName": "https://reactjs.org"
+				},
+				{
+					"id": 2,
+					"name": "Next.js",
+					"description": "JavaScript web development framework, based on React, which enables the creation of high-performance and efficient web applications.",
+					"url": "https://nextjs.org/",
+					"urlName": "https://nextjs.org"
+				},
+				{
+					"id": 3,
+					"name": "React Native + Expo",
+					"description": "React Native brings the best parts of React development to native development. It's the best-in-class JavaScript library for creating user interfaces.",
+					"url": "https://reactnative.dev",
+					"urlName": "https://reactnative.dev"
+				},
+				{
+					"id": 4,
+					"name": "Vite",
+					"description": "Vite is a front-end development tool built on the JavaScript ecosystem. It was created to improve the efficiency of front-end development, making it faster and easier for developers.",
+					"url": "https://dev.to/gabrielgcj/o-que-e-vite-e-quais-suas-vantagens-para-projetos-fron-end-3p5a#:~:text=Vite%20%C3%A9%20uma%20ferramenta%20de%20desenvolvimento%20de%20front-end,e%20mais%20leve%20para%20desenvolvimento%20de%20front-end%20moderno%22.",
+					"urlName": "https://dev.to"
+				},
+				{
+					"id": 5,
+					"name": "Node.js",
+					"description": "Node.js is a free, open source, cross-platform JavaScript runtime environment that allows programmers to create servers, web applications, command line tools and task automation programs.",
+					"url": "https://nodejs.org/en",
+					"urlName": "https://nodejs.org"
+				},
+
+				{
+					"id": 6,
+					"name": "Styled Components",
+					"description": "Styled Components is a popular library in the React ecosystem that allows you to write CSS styles in a more intuitive and efficient way. With Styled Components, styles are defined directly in the React component, combining CSS and component logic in one place.",
+					"url": "https://dev.to/gabrielgcj/o-que-e-styled-components-e-quais-suas-vantagens-aos-seus-concorrentes-2h1o#:~:text=Styled%20Components%20%C3%A9%20uma%20biblioteca%20popular%20do%20ecossistema,a%20l%C3%B3gica%20do%20componente%20em%20um%20s%C3%B3%20lugar.",
+					"urlName": "https://dev.to/styled-componentes"
+				},
+				{
+					"id": 7,
+					"name": "TailwindCSS",
+					"description": "Tailwind CSS is an open source CSS framework that stands out for its unique utilitarian design approach. Instead of providing pre-styled styles for specific elements, it provides a series of utility classes that can be directly applied to HTML elements to style them. These classes represent individual CSS properties such as margins, padding, colors, font sizes, alignments and much more.",
+					"url": "https://www.brasilcode.com.br/tailwind-css-o-que-e-como-usar/",
+					"urlName": "https://www.brasilcode.com.br"
+				},
+				{
+					"id": 8,
+					"name": "Cypress",
+					"description": "Cypress is a tool designed to simplify the process of creating, running and debugging tests. In addition, it allows developers to write in JavaScript, with an API that facilitates this stage of software development.",
+					"url": "https://softdesign.com.br/blog/cypress_passo_a_passo_para_comecar_a_usar/#:~:text=O%20que%20%C3%A9%20o%20Cypress?%20O%20Cypress%20%C3%A9%20uma",
+					"urlName": "https://softdesign.com.br"
+				},
+				{
+					"id": 9,
+					"name": "Playwright",
+					"description": "Playwright is a Node.js library for automating Chromium, Firefox and WebKit with a single API. Playwright is designed to enable cross-browser web automation that is pervasive, capable, reliable and fast.",
+					"url": "https://learn.microsoft.com/microsoft-edge/playwright/",
+					"urlName": "https://learn.microsoft.com/"
+				},
+				{
+					"id": 10,
+					"name": "PostgreSql",
+					"description": "Object-relational database management system (ORDBMS) with an emphasis on extensibility and compliance standards. As a database server, its main function is to store data securely, supporting best practices, allowing data to be retrieved on demand by other software applications.",
+					"url": "https://www.devmedia.com.br/postgresql-tutorial/33025#:~:text=O%20PostgreSQL,%20normalmente%20chamado%20de",
+					"urlName": "https://www.devmedia.com.br"
+				},
+				{
+					"id": 11,
+					"name": "Terraform",
+					"description": "Terraform is an open source infrastructure software tool used to provision infrastructure on cloud platforms such as AWS, Azure, DigitalOcean, etc.",
+					"url": "https://dev.to/jhonywalkeer/terraform-entendo-o-que-e-isso-ijc#:~:text=O%20Terraform%20%C3%A9%20uma%20ferramenta%20de%20software",
+					"urlName": "https://dev.to/jhonywalkeer/terraform"
+				},
+				{
+					"id": 12,
+					"name": "Scrum",
+					"description": "Scrum is a framework used by teams to manage work and solve problems collaboratively in short cycles. Scrum implements Agile principles as a concrete set of artifacts, practices and functions.",
+					"url": "https://learn.microsoft.com/pt-br/devops/plan/what-is-scrum",
+					"urlName": "https://learn.microsoft.com"
+				}
+			]
 		}
 	}
 }

@@ -1,7 +1,8 @@
-import { Box, Flex, useBreakpointValue } from "@chakra-ui/react";
+import { Box, Flex, useBreakpointValue, VStack } from "@chakra-ui/react";
 import { Header } from "@components/Header";
 import { NavigationMobile } from "@components/NavigationMobile";
 import { AboutMe } from "@components/SectionsHome/AboutMe";
+import { Stack } from "@components/SectionsHome/Stack";
 import { useTranslation } from "@contexts/useTranslation";
 
 export function Home() {
@@ -23,17 +24,18 @@ export function Home() {
 			<Header />
 			<Box
 				bg={isMobile ? "background.secondary" : "background.primary"}
-				h="100%"
 				px={isMobile ? "1rem" : 0}
 			>
-				<Flex
+				<VStack
 					p={isMobile ? "1rem" : "5rem"}
-					h="100%"
 					bg="background.primary"
 					boxShadow={isMobile ? "0px 3px 2px 0px rgba(0,0,0,0.25)" : "none"}
+					spacing={isMobile ? "3rem" : "5.3rem"}
+					mb="4rem"
 				>
 					<AboutMe />
-				</Flex>
+					<Stack />
+				</VStack>
 			</Box>
 			{isMobile && <NavigationMobile />}
 		</Flex>
