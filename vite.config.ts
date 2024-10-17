@@ -10,6 +10,10 @@ export default defineConfig({
       "@api": path.resolve(__dirname, "./src/api"),
       "@assets": path.resolve(__dirname, "./src/assets"),
       "@components": path.resolve(__dirname, "./src/components"),
+      "@componentsHome": path.resolve(
+        __dirname,
+        "./src/components/SectionsHome"
+      ),
       "@configs": path.resolve(__dirname, "./src/configs"),
       "@constants": path.resolve(__dirname, "./src/constants"),
       "@contexts": path.resolve(__dirname, "./src/contexts"),

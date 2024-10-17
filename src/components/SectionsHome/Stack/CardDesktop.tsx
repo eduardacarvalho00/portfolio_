@@ -28,6 +28,7 @@ import { IconType } from "react-icons";
 import { CardProps } from "@interfaces/stack";
 import { Tooltip } from "@components/Tooltip";
 import { useTranslation } from "@contexts/useTranslation";
+import { scrollbarTheme } from "@constants/scrollbarTheme";
 
 interface ContainerProps extends StackProps {
 	children: ReactNode;
@@ -49,18 +50,7 @@ const Container = ({ children, ...rest }: ContainerProps) => {
 				overflowY="auto"
 				overflowX="hidden"
 				justify="space-between"
-				css={{
-					"&::-webkit-scrollbar": {
-						width: "4px",
-					},
-					"&::-webkit-scrollbar-track": {
-						width: "6px",
-					},
-					"&::-webkit-scrollbar-thumb": {
-						background: "#3B5249",
-						borderRadius: "8px",
-					},
-				}}
+				css={scrollbarTheme}
 				cursor="pointer"
 				{...rest}
 			>

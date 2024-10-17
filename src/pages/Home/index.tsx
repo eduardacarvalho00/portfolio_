@@ -1,8 +1,9 @@
 import { Box, Flex, useBreakpointValue, VStack } from "@chakra-ui/react";
 import { Header } from "@components/Header";
 import { NavigationMobile } from "@components/NavigationMobile";
-import { AboutMe } from "@components/SectionsHome/AboutMe";
-import { Stack } from "@components/SectionsHome/Stack";
+import { AboutMe } from "@componentsHome/AboutMe";
+import { Stack } from "@componentsHome/Stack";
+import { Timeline } from "@componentsHome/Timeline";
 import { useTranslation } from "@contexts/useTranslation";
 
 export function Home() {
@@ -35,6 +36,7 @@ export function Home() {
 				>
 					<AboutMe />
 					<Stack />
+					<Timeline />
 				</VStack>
 			</Box>
 			{isMobile && <NavigationMobile />}

@@ -105,6 +105,23 @@
 				}
 			],
 			"learnMore": "Saiba mais"
+		},
+		"timeline": {
+			"timelineItem": [
+				{
+					"title": "Inicio da Graduação - Análise e Desenvolvimento de Sistemas",
+					"type": "school",
+					"address": "Universidade Anhembi Morumbi",
+					"date": "Janeiro - 2022"
+				},
+				{
+					"title": "Desenvolvedora Front end jr",
+					"type": "work",
+					"address": "São José dos Campos, SP",
+					"date": "Abril - 2022",
+					"description": "Desenvolvi interfaces personalizadas utilizando Power BI Embedded para entregar visualizações de dados interativas e dinâmicas, otimizando a tomada de decisão. Implementei interfaces de usuário intuitivas para portais web, integrando chatbots e ferramentas de análise de arquivos com modelos de inteligência artificial. Acelerei o desenvolvimento e a entrega de software através da implementação de pipelines de CI/CD, promovendo uma cultura de colaboração e automação entre as equipes de desenvolvimento e operações. Gerenciei a infraestrutura na nuvem Azure utilizando Terraform, automatizando o provisionamento e configuração de recursos de forma eficiente e escalável."
+				}
+			]
 		}
 	}
 }

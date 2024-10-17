@@ -19,6 +19,7 @@
       "@api/*": ["./src/api/*"],
       "@assets/*": ["./src/assets/*"],
       "@components/*": ["./src/components/*"],
+      "@componentsHome/*": ["./src/components/SectionsHome/*"],
       "@configs/*": ["./src/configs/*"],
       "@constants/*": ["./src/constants/*"],
       "@contexts/*": ["./src/contexts/*"],
